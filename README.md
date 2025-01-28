@@ -1,0 +1,3 @@
+# Unexpected Results with Logical Indexing in MATLAB Function
+
+This repository demonstrates a subtle bug in a MATLAB function caused by incorrect handling of logical indexing with array inputs.  The function `myFunction` attempts to apply different operations based on the input value. However, a flawed approach to handling the 'else' condition produces an unexpected result when the input is an array.
